@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+  <title>OSGeo-Live</title>
+  
+  <meta name="author" content="Angelos Tzotsos" >
+  <meta name="description" content=  "OSGeo Live presentation">
+    
+  <meta name="generator" content="Bluefish 2.0.3" >
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=1024">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link type="text/css" rel="stylesheet" href="css/charla.css"></link>
+  
+</head>
+
+<body class="impress-not-supported">
+  <div class="banner"></div>
+  
+  <div id="impress">
+    <div class="fallback-message">
+      <p>Your browser <b>doesn't support the features required</b> by
+      impress.js, so you are presented with a simplified version of this
+      presentation.</p>
+
+      <p>For the best experience please use the latest <b>Chrome</b>,
+      <b>Safari</b> or <b>Firefox</b> browser. Upcoming version 10 of Internet
+      Explorer <i>should</i> also handle it.</p>
+    </div>
+
+    <div id="title" class="step" data-x="-1500" data-y="-2000" data-scale="3">
+    	<img src="imgs/osgeo-live-logo1.png" width="200" 
+    		alt="OSGeo Live Logo" class="right" />
+      <h1>OSGeo Live</h1>
+      <h2>GeoSpatial Free and Open Source Software</h2>
+    
+      <p class="evento"><a target="_blank" href="http://2013.foss4g.org/">
+        		FOSS4G </a> · Nottingham · September 2013</p>
+      <p class="yo">
+      	Angelos Tzotsos · <a href="mailto:tzotsos@opensuse.org">tzotsos@opensuse.org</a> ·  
+      	<a href="http://twitter.com/tzotsos" target="_blank" title="Angelos @ twitter">@tzotsos</a><br>
+	OSGeoLive Build Manager · OSGeo Charter Member<br><br>
+	Based on official <a href="http://blip.tv/cameronshorter/osgeolive-4-0-taster-4097254" target="_blank" title="OSGeoLive video"> OSGeoLive presentation</a> by Cameron Shorter<br>
+	Layout created by <a href="https://github.com/jsanz/slides" target="_blank" title="Jorge Sanz">Jorge Sanz</a><br>
+      </p>
+    </div>
+
+<!-- INTRODUCTION -->
+    
+    <div class="step hide" id="desktop" data-x="-3000" data-y="-3000" data-scale="1" data-rotate="180">
+      <h2>What is OSGeo Live?</h2>
+	<p><img src="imgs/02-screenshot.png" width="800" height="600" alt="" /></p>
+	<p class="center larger"><a class="noframe" href="http://live.osgeo.org" target="_blank" title="Main screen of OSGeo Live">
+	  http://live.osgeo.org</a></p>   
+    </div> 
+
+    <div class="step hide" id="usb" data-x="-3000" data-y="-3300" data-scale="1" data-rotate="90">
+      <h2>Live DVD, Thumb Drive & Virtual Machine</h2>
+	<p><img src="imgs/03-vbox.png" width="800" height="600" alt="" /></p>
+    </div>
+
+   <div class="step" id="wordle" data-x="-3000" data-y="-3600" data-scale="1" data-rotate="180">
+		<blockquote>
+		<strong>GNU/Linux</strong> distribution containing more than 50 geospatial applications		
+		</blockquote>		
+		<p class="center fade-in">
+			<img src="imgs/wordle.png" width="750" height="462" alt="OSGeo Live wordle" />
+		</p>   
+   </div>
+
+    <div class="step hide" id="boot1" data-x="-3300" data-y="-3600" data-scale="1" data-rotate="-90">
+      <h2>Based on Xubuntu 11.04</h2>
+	<p><img src="imgs/04-boot.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="boot2" data-x="-3300" data-y="-3600" data-scale="1" data-rotate="180">
+      <h2>Press "Enter" a few times.</h2>
+	<p><img src="imgs/05-boot.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="boot3" data-x="-3200" data-y="-3600" data-scale="2" data-rotate="180">
+      <h2>Select Language.</h2>
+	<p><img src="imgs/06-boot.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div id="osgeo" class="step" data-x="-3600" data-y="-3500">
+      <h2>Open Source Geospatial  Foundation (OSGeo)</h2>
+      <h3>Since 2006 A Non Profit Umbrella for:</h3>
+      <ul class="discs">
+        <li>GeoSpatial Free and Open Source Software</li>
+        <li>Education	<img class="right fade-in" src="imgs/gnu.png" width="400" alt="GNU" />	</li>    
+        <li>Open Data</li>  
+      </ul>
+    </div>
+    
+    <div id="ogc" class="step" data-x="-3800" data-y="-3400">
+      <h2>OGC Standards		<img class="right" src="imgs/ogc.png" width="200" alt="OGC" /></h2>
+      <ul class="discs">
+        <li>Interoperability	<img class="right fade-in" src="imgs/ogc-interop.png" width="200" alt="Interoperability" /></li>
+        <li>Future Proof</li>    
+        <li>Return of Investment</li>  
+      </ul>
+    </div>
+
+<!-- DATABASES -->
+   
+    <div id="databases" class="step slide" data-x="-2000" data-y="-3000">
+        <h2>Databases</h2>
+	<ul class="discs">
+        <li>PostGIS</li>
+        <li>SpatiaLite</li>    
+        <li>pgRouting</li> 
+	<li>Rasdaman</li><br><br><br>
+	<p><img src="imgs/databases.png" width="500" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="postgis" data-x="-2000" data-y="-3600" data-scale="2">
+      <h2>PostGIS - Spatial Database</h2>
+	<p><img src="imgs/postgis.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="pgrouting" data-x="-2000" data-y="-3400" data-scale="1">
+      <h2>pgRouting – routing for PostGIS</h2>
+	<p><img src="imgs/pgrouting.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="spatialite" data-x="-2200" data-y="-3200" data-scale="1">
+      <h2>SpatiaLite – Compact Database</h2>
+	<p><img src="imgs/spatialite.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="rasdaman" data-x="-2200" data-y="-3500" data-scale="2">
+      <h2>Rasdaman – Raster Database</h2>
+	<p><img src="imgs/rasdaman.png" width="800" height="600" alt="" /></p>
+    </div>
+
+<!-- WEB SERVICES -->
+
+    <div id="webservices" class="step slide" data-x="-1000" data-y="-3000" data-scale="1">
+        <h2>Web Services</h2>
+	<ul class="discs">
+        <br><br><br><br><br>
+	<p><img src="imgs/webservices.png" width="700" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="mapserver" data-x="-1000" data-y="-3500" data-scale="1">
+      <h2>MapServer – Web Services</h2>
+	<p><img src="imgs/mapserver.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="tinyows" data-x="-1000" data-y="-3500" data-scale="2" data-rotate="180">
+      <h2>TinyOWS - WFS-T</h2>
+	<p><img src="imgs/tinyows.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="geoserver" data-x="-1000" data-y="-3500" data-scale="1" data-rotate="90">
+      <h2>GeoServer – Web Services</h2>
+	<p><img src="imgs/geoserver.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="deegree" data-x="-1000" data-y="-3500" data-scale="2" data-rotate="270">
+      <h2>deegree – Web Services</h2>
+	<p><img src="imgs/deegree.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="qgisserver" data-x="-1000" data-y="-3500" data-scale="2" data-rotate="90">
+      <h2>QGIS Server – WMS</h2>
+	<p><img src="imgs/qgisserver.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="mapproxy" data-x="-1000" data-y="-3500" data-scale="1" data-rotate="0">
+      <h2>MapProxy – WMS & Tile Proxy</h2>
+	<p><img src="imgs/mapproxy.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="maptiler" data-x="-1000" data-y="-3500" data-z="-100" data-scale="1" data-rotate-x="-40" data-rotate-y="10">
+      <h2>MapTiler</h2>
+	<p><img src="imgs/maptiler.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="zoo" data-x="-1000" data-y="-3500" data-z="0" data-scale="1" data-rotate-x="40" data-rotate-y="-10">
+      <h2>ZOO – Web Processing Service</h2>
+	<p><img src="imgs/zoo.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="52wps" data-x="-1000" data-y="-3500" data-z="0" data-scale="1" data-rotate-x="180">
+      <h2>52°North WPS – Web Processing Service</h2>
+	<p><img src="imgs/52wps.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="52sos" data-x="-1000" data-y="-3500" data-z="0" data-scale="1" data-rotate-y="90">
+      <h2>52°North SOS – Sensor Observation Service</h2>
+	<p><img src="imgs/52sos.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="52wss" data-x="-1000" data-y="-3500" data-z="0" data-scale="1" data-rotate-y="90">
+      <h2>52°North WSS - Security</h2>
+	<p><img src="imgs/52wss.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="geonetwork" data-x="-1000" data-y="-3500" data-z="0" data-scale="1" data-rotate-y="90">
+      <h2>GeoNetwork – Metadata Catalogue</h2>
+	<p><img src="imgs/geonetwork.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="pycsw" data-x="-1000" data-y="-3500" data-z="-200" data-scale="1" data-rotate-z="20" data-rotate-y="90">
+      <h2>pycsw – Metadata Catalogue</h2>
+	<p><img src="imgs/pycsw.png" width="800" height="600" alt="" /></p>
+    </div>
+
+<!-- WEB MAPPING -->
+
+    <div id="webmapping" class="step slide" data-x="0" data-y="-3000" data-scale="1">
+        <h2>Web Mapping</h2>
+	<ul class="discs">
+        <br><br><br>
+	<p><img src="imgs/webmapping.png" width="400" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="openlayers" data-x="0" data-y="-3200" data-scale="1">
+      <h2>OpenLayers – Browser client</h2>
+	<p><img src="imgs/openlayers.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="mapfish" data-x="-500" data-y="-3300" data-scale="2" data-rotate="180">
+      <h2>MapFish – Browser Client</h2>
+	<p><img src="imgs/mapfish.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="mapbender" data-x="-500" data-y="-3500" data-scale="1" data-rotate="90">
+      <h2>Mapbender – Geoportal Framework</h2>
+	<p><img src="imgs/mapbender.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="geomajas" data-x="-500" data-y="-3700" data-scale="2" data-rotate="90">
+      <h2>Geomajas – Browser Client</h2>
+	<p><img src="imgs/geomajas.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="geomoose" data-x="-700" data-y="-3500" data-scale="1" data-rotate="90">
+      <h2>GeoMOOSE – GIS Portal</h2>
+	<p><img src="imgs/geomoose.png" width="800" height="600" alt="" /></p>
+    </div>
+
+<!-- DESKTOP APPLICATIONS -->
+
+    <div id="desktopapplications" class="step slide" data-x="-3000" data-y="-2000" data-scale="1">
+        <h2>Desktop Applications</h2>
+	<ul class="discs">
+        <br><br><br>
+	<p><img src="imgs/desktopapplications.png" width="700" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="grass" data-x="-3000" data-y="-2500" data-scale="1">
+      <h2>GRASS – Desktop GIS</h2>
+	<p><img src="imgs/grass.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="qgis" data-x="-3000" data-y="-2500" data-scale="1" data-rotate="180">
+      <h2>Quantum GIS – Desktop GIS</h2>
+	<p><img src="imgs/qgis.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="gvsig" data-x="-3500" data-y="-2700" data-scale="2" data-rotate="90">
+      <h2>gvSIG – Desktop GIS</h2>
+	<p><img src="imgs/gvsig.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="udig" data-x="-3500" data-y="-2700" data-scale="2" data-rotate="90">
+      <h2>uDig: User-friendly Desktop Internet GIS</h2>
+	<p><img src="imgs/udig.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="openjump" data-x="-3500" data-y="-2700" data-scale="1" data-rotate="0">
+      <h2>OpenJUMP GIS</h2>
+	<p><img src="imgs/openjump.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="kosmo" data-x="-3500" data-y="-2700" data-scale="1" data-rotate="0">
+      <h2>Kosmo – Desktop GIS</h2>
+	<p><img src="imgs/kosmo.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="saga" data-x="-3500" data-y="-2700" data-scale="2" data-rotate="0">
+      <h2>SAGA – Desktop GIS</h2>
+	<p><img src="imgs/saga.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="ossim" data-x="-3500" data-y="-2700" data-scale="2" data-rotate="0">
+      <h2>OSSIM - Image Processing</h2>
+	<p><img src="imgs/ossim.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="osgearth" data-x="-3500" data-y="-2700" data-scale="2" data-rotate="180">
+      <h2>osgEarth - 3 Dimension Terrain Rendering</h2>
+	<p><img src="imgs/osgearth.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="geopublisher" data-x="-3500" data-y="-2700" data-scale="2" data-rotate="0">
+      <h2>Geopublisher – Atlas creation</h2>
+	<p><img src="imgs/geopublisher.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="atlasstyler" data-x="-3500" data-y="-2700" data-scale="1" data-rotate="0">
+      <h2>AtlasStyler – Desktop Style Editor</h2>
+	<p><img src="imgs/atlasstyler.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="mapwindow" data-x="-3500" data-y="-2900" data-scale="1" data-rotate="0">
+      <h2>MapWindow – GIS for Windows</h2>
+	<p><img src="imgs/mapwindow.png" width="800" height="600" alt="" /></p>
+    </div>
+
+
+<!-- SPATIAL TOOLS -->
+
+    <div id="spatialtools" class="step slide" data-x="0" data-y="-2000" data-scale="1">
+        <h2>Spatial Tools</h2>
+	<ul class="discs">
+        <br><br><br>
+	<p><img src="imgs/spatialtools.png" width="400" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="gmt" data-x="500" data-y="-2500" data-scale="1">
+      <h2>GMT – Generic Mapping Tools</h2>
+	<p><img src="imgs/gmt.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="otb" data-x="500" data-y="-2700" data-scale="1">
+      <h2>ORFEO Toolbox:Image Processing</h2>
+	<p><img src="imgs/otb.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="mapnik" data-x="700" data-y="-2700" data-scale="1">
+      <h2>Mapnik – Cartographic Rendering</h2>
+	<p><img src="imgs/mapnik.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="R" data-x="400" data-y="-2700" data-scale="2">
+      <h2>R – Statistical Programing</h2>
+	<p><img src="imgs/R.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="geokettle" data-x="400" data-y="-2200" data-scale="2" data-rotate="90">
+      <h2>GeoKettle – Extract Transform Load (ETL)</h2>
+	<p><img src="imgs/geokettle.png" width="800" height="600" alt="" /></p>
+    </div>
+
+<!-- NAVIGATION AND MAPS -->
+
+    <div id="navigation" class="step slide" data-x="-3000" data-y="-1000" data-scale="1">
+        <h2>Navigation & Maps</h2>
+	<ul class="discs">
+        <br><br><br>
+	<p><img src="imgs/navigation.png" width="500" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="marble" data-x="-3000" data-y="-1500" data-scale="1">
+      <h2>Marble – Spinning Globe</h2>
+	<p><img src="imgs/marble.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="prune" data-x="-3000" data-y="-1500" data-scale="1">
+      <h2>Prune – GPS Track Editing</h2>
+	<p><img src="imgs/prune.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="gpsdrive" data-x="-3000" data-y="-1000" data-scale="1">
+      <h2>GpsDrive – GPS Navigation</h2>
+	<p><img src="imgs/gpsdrive.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="opencpn" data-x="-3000" data-y="-1000" data-scale="1">
+      <h2>OpenCPN – Marine GPS Navigation</h2>
+	<p><img src="imgs/opencpn.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="viking" data-x="-3000" data-y="-1000" data-scale="1">
+      <h2>Viking – GPS Navigation</h2>
+	<p><img src="imgs/viking.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="zygrib" data-x="-3000" data-y="-1000" data-scale="1">
+      <h2>zygrib – Weather Forecasting</h2>
+	<p><img src="imgs/zygrib.png" width="800" height="600" alt="" /></p>
+    </div>
+
+
+<!-- CRISIS MANAGEMENT -->
+
+    <div id="crisis" class="step slide" data-x="0" data-y="-1000" data-scale="1">
+        <h2>Crisis Management</h2>
+	<ul class="discs">
+        <br><br><br><br><br>
+	<p><img src="imgs/crisis.png" width="300" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="sahana" data-x="400" data-y="-1200" data-scale="1">
+      <h2>Sahana – Disaster Management</h2>
+	<p><img src="imgs/sahana.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="ushahidi" data-x="700" data-y="-1400" data-scale="1">
+      <h2>Ushahidi – Event Timeline & Maps</h2>
+	<p><img src="imgs/ushahidi.png" width="700" height="400" alt="" /></p>
+    </div>
+
+<!-- MAP DATA -->
+
+    <div id="data" class="step slide" data-x="-3000" data-y="0" data-scale="1">
+        <h2>Map Data</h2>
+	<ul class="discs">
+        <br><br><br><br><br>
+	<p><img src="imgs/data.png" width="500" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="natural" data-x="-3200" data-y="-100" data-scale="2">
+      <h2>Natural Earth – Map Data</h2>
+	<p><img src="imgs/natural.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="osm" data-x="-3500" data-y="-400" data-scale="1">
+      <h2>Open Street Map</h2>
+	<p><img src="imgs/osm.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="ncarolina" data-x="-3800" data-y="-700" data-scale="1">
+      <h2>North Carolina educational dataset</h2>
+	<p><img src="imgs/ncarolina.png" width="800" height="600" alt="" /></p>
+    </div>
+
+<!-- GEOSPATIAL LIBRARIES -->
+
+    <div id="libraries" class="step slide" data-x="0" data-y="0" data-scale="1">
+        <h2>Geospatial Libraries</h2>
+	<ul class="discs">
+        <br><br><br><br><br>
+	<p><img src="imgs/libraries.png" width="500" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="gdal" data-x="300" data-y="400" data-scale="2">
+      <h2>GDAL/OGR – Data Translation</h2>
+	<p><img src="imgs/gdal.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="geotools" data-x="500" data-y="500" data-scale="2">
+      <h2>GeoTools</h2>
+	<p><img src="imgs/geotools.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="metacrs" data-x="100" data-y="100" data-scale="1">
+      <h2>MetaCRS</h2>
+	<p><img src="imgs/metacrs.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="liblas" data-x="300" data-y="500" data-scale="1">
+      <h2>libLAS</h2>
+	<p><img src="imgs/liblas.png" width="800" height="600" alt="" /></p>
+    </div>
+
+    <div class="step hide" id="credits" data-x="700" data-y="800" data-scale="1">
+      <h2>Credits</h2>
+	<p><img src="imgs/credits.png" width="800" height="800" alt="" /></p>
+    </div>
+
+    <div id="more" class="step" data-x="600" data-y="700">
+      <h1>Want to know more?</h1>
+        <a class="noframe" href=
+      "http://live.osgeo.org" title="osgeolive">http://live.osgeo.org</a><br><br>
+	<h2>OSGeo Foundation	<img class="right" src="imgs/osgeo.png" width="200" alt="OSGeo" /></h2>
+<a class="noframe" href=
+      "http://osgeo.org" title="osgeo">http://osgeo.org</a><br><br>
+        <h2>Conferences 	<img class="right" src="imgs/foss4g.png" width="150" alt="FOSS4G" /></h2>   
+<a class="noframe" href=
+      "http://foss4g.org" title="osgeo">http://foss4g.org</a><br><br> 
+          
+     </div>
+
+<!-- LICENSE -->
+
+    <div id="license" class="step section" data-x="1000" data-y="-1000" data-scale="3">
+      <h2>License</h2><a class="noframe" href=
+      "http://creativecommons.org/licenses/by-sa/3.0/deed.es" title=
+      "cc-by-sa"><img style="margin-top:50px;" src="../resources/imgs/cc-by-sa.png" height="100" alt=""></a>
+    </div>
+    
+    
+    <!-- OVERVIEW -->
+    <div id="overview" class="step" data-x="-1800" data-y="-1500" data-scale="8">
+      <p>¡Thank you!<br>
+      	¿Questions?</p>
+    </div>
+  </div>
+
+  <div class="hint">
+    <p>Use the space button or arrows to navigate</p>
+  </div>
+  
+  <!-- JavaScript -->
+  <script type="text/javascript" src="./resources/jquery/jquery-1.7.min.js"></script>
+  <script type="text/javascript" src="./resources/impress/0.5.3/js/impress.js"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+  $(document).ready(function(){ 
+  if ("ontouchstart" in document.documentElement) { 
+    $(".hint").innerHTML = "<p>Touch forward to navigate<\/p>";
+  }
+  impress().init();
+  });
+  //]]>
+  </script>
+</body>
+</html>
