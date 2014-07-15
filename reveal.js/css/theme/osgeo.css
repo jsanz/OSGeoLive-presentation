@@ -10,7 +10,12 @@
  *********************************************/
 body {
   background: #f4faee;
-  background-color: #d0e7b4; }
+  background-color: #d0e7b4; 
+  background-image:url(../../../imgs/osgeo.png);
+  background-repeat:no-repeat;
+  background-position:2% 98%;
+  background-size: 150px 63px;
+}
 
 .reveal {
   font-family: "Open Sans", sans-serif;
